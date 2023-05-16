@@ -11,8 +11,6 @@ Displays the calculated monthly payment amount.
 HTML
 CSS
 JavaScript
-Getting Started
-To run this application locally, follow these steps:
 
 <h2>Usage</h2>
 Enter the loan amount in the provided input field.
