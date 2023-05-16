@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: #AEE2FF;
+
+}
+
+.container{
+    width: 100%;
+}
+
+h1,
+h4{
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+h2{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    text-align: center;
+    background: -webkit-linear-gradient( #B6EAFA,#1D267D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.form {
+    border: 5px solid navy;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    padding: 0rem 2rem;
+    border-radius: 5px;
+}
+.form-input{
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    margin: auto;
+}
+label{
+    padding: 0.25em;
+}
+input{
+    margin-top: 0.5rem;
+    width: 70%;
+    padding: 0.5em;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 3.5px;
+    max-width: 200px;
+    min-width: 120px;
+}
+input:focus{
+    border: 2px solid #1D267D;
+}
+button{
+    border-radius: 3.5px;
+    padding: 0.25rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #1D267D;
+    color: #AEE2FF;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    margin: 1rem;
+    transition: 0.4s;
+}
+
+button:hover,
+button:focus{
+    background-color: #5059b0;
+}
