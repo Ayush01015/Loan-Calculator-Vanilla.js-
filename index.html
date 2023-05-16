@@ -9,17 +9,24 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Loan Calculator</h1>
-    <div class="form">
-        <p>
-            Loan Amount: $<input id="amount" type="number" min="1" max="5000000"  onchange="computeLoan()"/>
-        </p>
-        <p>
-            Intrest Rate: %<input id="intrest_rate" type="number" min="0" max="100" value="10" step=".1" onchange="computeLoan()"/>
-        </p>
-        <p>
-            Months To Pay: <input id="months" type="number" min="1" max="300" value="1" step="1" onchange="computeLoan()"/>
-        </p>
+    <div class="container">
+        <h1>Loan Calculator</h1>
+        <div class="form">
+            <p>
+                <label for="">Loan Amount: </label>
+                <input id="amount" type="number" min="1" max="5000000"  onchange="computeLoan()"/>
+            </p>
+            <p>
+                <label for="">Intrest Rate: %</label>
+                <input id="interest_rate" type="number" min="0" max="100" value="10" step=".1" onchange="computeLoan()"/>
+            </p>
+            <p>
+                <label for="">Months To Pay: </label>
+                <input id="months" type="number" min="1" max="300" value="1" step="1" onchange="computeLoan()"/>
+            </p>
+            <button onclick="computeLoan()">Calculate</button>
+        </div>
+        <h4 id="payment"></h4>
     </div>
-    </body>
+</body>
 </html>
