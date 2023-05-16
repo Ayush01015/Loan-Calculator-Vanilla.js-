@@ -12,21 +12,24 @@
     <div class="container">
         <h1>Loan Calculator</h1>
         <div class="form">
-            <p>
+            <div class="form-input">
                 <label for="">Loan Amount: </label>
+                <!-- <br> -->
                 <input id="amount" type="number" min="1" max="5000000"  onchange="computeLoan()"/>
-            </p>
-            <p>
+            </div>
+            <div class="form-input">
                 <label for="">Intrest Rate: %</label>
+                <!-- <br> -->
                 <input id="interest_rate" type="number" min="0" max="100" value="10" step=".1" onchange="computeLoan()"/>
-            </p>
-            <p>
-                <label for="">Months To Pay: </label>
+            </div>
+            <div class="form-input">
+                <label for="">Months To Pay:</label>
+                <!-- <br> -->
                 <input id="months" type="number" min="1" max="300" value="1" step="1" onchange="computeLoan()"/>
-            </p>
+            </div>
             <button onclick="computeLoan()">Calculate</button>
         </div>
-        <h4 id="payment"></h4>
+        <h2 id="payment"></h2>
     </div>
 </body>
 </html>
